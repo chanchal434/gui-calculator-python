@@ -46,7 +46,7 @@ A simple and modern calculator built using **Python** and **Kivy** with a clean 
 ## 🏗️ Tech Stack
 
 - Python
-- Kivy (GUI Framework)
+- Kivy (GUI Framework) and best for beginner level mobile app.
 
 ---
 
