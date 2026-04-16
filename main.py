@@ -4,7 +4,7 @@ from kivy.uix.button import Button
 from kivy.uix.textinput import TextInput
 from kivy.uix.popup import Popup
 from kivy.uix.gridlayout import GridLayout
-from kivy.core.window import Window
+from kivy.core.window import Window, layout
 
 
 Window.size = (300, 500)
@@ -50,7 +50,8 @@ class Calculator(BoxLayout):
             self.convert_percent()
         else:
             self.result.text += text
-        
+
+    
         #Calculate 
     def calculate(self):
             try:
